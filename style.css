@@ -1,0 +1,49 @@
+p {
+  color: green;
+}
+
+body {
+  background-color: #000000;
+}
+
+div.logo {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  margin-top: -50px;
+  margin-left: -50px;
+}
+
+div.separador {
+  position: absolute;
+  top: 65%;
+  left: 28%;
+  margin-top: -50px;
+  margin-left: -50px;
+}
+
+#social-icons {
+  position: absolute;
+  top: 70%;
+  left: 42%;
+  margin-top: -50px;
+  margin-left: -50px;
+}
+
+#social-icons ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  text-align: center;
+}
+
+#social-icons ul li {
+  display: inline;
+}
+
+#social-icons ul li a {
+  padding: 20px;
+  display: inline-block;
+  text-decoration: none;
+  margin: 10px;
+}
