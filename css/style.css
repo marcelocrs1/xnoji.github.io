@@ -17,7 +17,6 @@ body {
   justify-content: center;
   margin: 0 auto;
 }
-
 .logo_wrapper {
   max-width: 960px;
   height: auto;
@@ -107,6 +106,7 @@ body {
     height: auto;
   }
   .logo_name img {
+
     width: 300px;
     height: auto;
   }
@@ -122,6 +122,7 @@ body {
     height: auto;
   }
   .logo_name img {
+
     width: 250px;
     height: auto;
   }
