@@ -1,6 +1,14 @@
-# xnoji.github.io
+# Repository of Marcelo's Ramos Webpage
 
-## Marcelo Ramos Portfolio
+<h1 align="center">
+  <img src="img/logo-mr.svg">
+</h1>
 
-![Logo](/img/logo.png)
-
+This website is built with :
+ - HTML5
+ - CSS3
+ - Hosted by GitHub Pages 
+  
+<center> 
+  Design by @xnoji 🔮  - Coded by @oliveirarennan 👨‍💻
+</center>
