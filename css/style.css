@@ -1,7 +1,8 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
 
 body {
   background-color: #303030;
@@ -16,8 +17,7 @@ body {
   justify-content: center;
   margin: 0 auto;
 }
-  
-.logo_wrapper{
+.logo_wrapper {
   max-width: 960px;
   height: auto;
   display: flex;
@@ -33,17 +33,17 @@ body {
   max-width: 860px;
   width: 100%;
   height: 4px;
-  background: #FFF;
+  background: #fff;
   border-radius: 2px;
   transition: 0.5s linear;
 }
 
-.separator:hover{
-  background-color: #B26E12;
+.separator:hover {
+  background-color: #b26e12;
   box-shadow: 1px 1px rgba(224, 142, 64, 0.5);
 }
-  
-.social-icons{
+
+.social-icons {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -51,7 +51,7 @@ body {
   justify-content: center;
 }
 
-.social-icons ul{
+.social-icons ul {
   display: flex;
   flex-direction: row;
   width: 50%;
@@ -59,7 +59,7 @@ body {
   justify-content: space-around;
   flex-wrap: wrap;
 }
-  
+
 .social-icons ul li {
   list-style: none;
   transition: ease-in-out 0.5s;
@@ -68,27 +68,30 @@ body {
 }
 
 @keyframes rotate_social_icons {
-  from {transform: rotate(0deg);}
-  to {transform: rotate(360deg);}
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
-
-.social-icons ul li:hover{
-  border: 2px solid rgba(0,0,0,0.5);
+.social-icons ul li:hover {
+  border: 2px solid rgba(0, 0, 0, 0.5);
   border-radius: 8px;
-  background-color: #B26E12;
-  box-shadow: 3px 3px rgba(0,0,0,0.5);
+  background-color: #b26e12;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.5);
   animation-name: rotate_social_icons;
   animation-delay: 0.6s;
   animation-duration: 1s;
-} 
+}
 
 @media only screen and (max-width: 640px) {
-  .logo_svg img{
+  .logo_svg img {
     width: 200px;
     height: 200px;
   }
-  .logo_name img{
+  .logo_name img {
     width: 450px;
     height: auto;
   }
@@ -98,11 +101,12 @@ body {
 }
 
 @media only screen and (max-width: 475px) {
-  .logo_svg img{
+  .logo_svg img {
     width: 200px;
     height: auto;
   }
-  .logo_name img{
+  .logo_name img {
+
     width: 300px;
     height: auto;
   }
@@ -113,11 +117,12 @@ body {
 }
 
 @media only screen and (max-width: 340px) {
-  .logo_svg img{
+  .logo_svg img {
     width: 200px;
     height: auto;
   }
-  .logo_name img{
+  .logo_name img {
+
     width: 250px;
     height: auto;
   }
