@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
 
 body {
   background-color: #303030;
@@ -17,6 +16,7 @@ body {
   justify-content: center;
   margin: 0 auto;
 }
+  
 .logo_wrapper{
   max-width: 960px;
   height: auto;
@@ -38,17 +38,16 @@ body {
   transition: 0.5s linear;
 }
 
-
 .separator:hover{
   background-color: #B26E12;
   box-shadow: 1px 1px rgba(224, 142, 64, 0.5);
-
 }
-
+  
 .social-icons{
   width: 100%;
   display: flex;
   flex-direction: row;
+
   justify-content: center;
 }
 
@@ -60,6 +59,7 @@ body {
   justify-content: space-around;
   flex-wrap: wrap;
 }
+  
 .social-icons ul li {
   list-style: none;
   transition: ease-in-out 0.5s;
@@ -71,7 +71,6 @@ body {
   from {transform: rotate(0deg);}
   to {transform: rotate(360deg);}
 }
-
 
 
 .social-icons ul li:hover{
