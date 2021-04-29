@@ -3,9 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-p {
-  color: green;
-}
 
 body {
   background-color: #303030;
@@ -14,35 +11,45 @@ body {
 .main {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  max-width: 960px;
+  height: auto;
   align-items: center;
   justify-content: center;
-
+  margin: 0 auto;
 }
-.logo img{
-  width: 100vw;
-  max-width: 900px;
+.logo_wrapper{
+  max-width: 960px;
   height: auto;
-  display: block;
-  margin: 16px;
-  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 2rem;
+  padding: 2rem;
 }
-.separador img {
+
+.separator {
+  max-width: 860px;
   width: 100%;
-  height: auto;
-  display: block;
-  margin-top: 64px;
+  height: 4px;
+  background: #FFF;
+  border-radius: 2px;
+  transition: 0.5s linear;
+}
 
-  padding: 16px;
+
+.separator:hover{
+  background-color: #B26E12;
+  box-shadow: 1px 1px rgba(224, 142, 64, 0.5);
+
 }
 
 .social-icons{
   width: 100%;
   display: flex;
   flex-direction: row;
- justify-content: center;
- 
-  
+  justify-content: center;
 }
 
 .social-icons ul{
@@ -65,6 +72,8 @@ body {
   to {transform: rotate(360deg);}
 }
 
+
+
 .social-icons ul li:hover{
   border: 2px solid rgba(0,0,0,0.5);
   border-radius: 8px;
@@ -75,4 +84,46 @@ body {
   animation-duration: 1s;
 } 
 
+@media only screen and (max-width: 640px) {
+  .logo_svg img{
+    width: 200px;
+    height: 200px;
+  }
+  .logo_name img{
+    width: 450px;
+    height: auto;
+  }
+  .separator {
+    width: 800px;
+  }
+}
 
+@media only screen and (max-width: 475px) {
+  .logo_svg img{
+    width: 200px;
+    height: auto;
+  }
+  .logo_name img{
+    width: 300px;
+    height: auto;
+  }
+
+  .separator {
+    width: 375px;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  .logo_svg img{
+    width: 200px;
+    height: auto;
+  }
+  .logo_name img{
+    width: 250px;
+    height: auto;
+  }
+
+  .separator {
+    width: 200px;
+  }
+}
